@@ -53,7 +53,7 @@ int main()
 		default:   validBeverage = false;
 		}
 
-		if (validBeverage == true)
+		if (validBeverage)
 		{
 			cout << "How many cups would you like?" << endl;
 
